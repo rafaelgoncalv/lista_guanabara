@@ -16,9 +16,10 @@ int main()
     //Entrada de dados
 
     setlocale(LC_ALL,"");
-    printf("Digite um numero inteiro:"); //Imprime uma mensagem
+    printf("Digite um número inteiro:"); //Imprime uma mensagem
     scanf("%d",&n); // Pega o valor e guarda na região da memória em que ela foi criada
 
+    //Saída de dados
     printf("\nO antecessor de %d é %d",n,n-1);
     printf("\nO sucessor de %d é %d",n,n+1);
 
